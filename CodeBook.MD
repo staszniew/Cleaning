@@ -14,7 +14,7 @@ These signals were used to estimate variables of the feature vector for each pat
 The final output retrieved in the `TidyDataSet.txt` file contains 68 columns, among which you will find 2 grouping variables and average values grouped by these 2 variables :
 * `ACTIVITY` describes the type of activity performed during the measurement ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
 * `SUBJECT_ID` corresponds to the different people who participated in the survey (numbered from 1 to 30)
-*  The following 66 variables are average values computed by type of activity per survey participant :
+*  The following 66 variables (means and standard deviations) are average values computed by type of activity per survey participant :
 
 "tBodyAcc_Mean-X",
 
