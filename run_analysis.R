@@ -1,4 +1,8 @@
 ## 1. Merges the training and the test sets to create one data set.
+
+# If required, WD can be changed to the "UCI HAR Dataset" folder :
+setwd("./UCI HAR Dataset")
+
 ActivLbl <- read.table("./activity_labels.txt", stringsAsFactors = F)
 Features <- read.table("./features.txt", stringsAsFactors = F)
 SubTrain <- read.table("./train/subject_train.txt", stringsAsFactors = F)
